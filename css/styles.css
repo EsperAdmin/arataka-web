@@ -1,0 +1,15 @@
+div {
+    color: green
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-vector/star-sky-space-stars-background-glitter-particles_160081-289.jpg");
+    margin: 10px;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    margin-inline: 5px;
+}
