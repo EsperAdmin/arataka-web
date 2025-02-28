@@ -1,5 +1,5 @@
 div {
-    color: green
+    color: rgb(0, 255, 0)
 }
 
 body {
@@ -12,4 +12,9 @@ body {
 li {
     display: inline-block;
     margin-inline: 5px;
+}
+
+footer {
+    color: rgb(0, 255, 0);
+    margin-top: 25px;
 }
