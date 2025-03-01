@@ -73,6 +73,11 @@ hr {
 
 }
 
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 
 /* color the links */
 a:any-link {
