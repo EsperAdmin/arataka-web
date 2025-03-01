@@ -79,10 +79,13 @@ p {
     margin-right: 15px;
 }
 
+#glow:hover {
+    box-shadow: 0 0 100px #00ff15;
+}
 
 /* color the links */
 a:any-link {
-    color:#00ff15
+    color: #00ff15
 }
 
 a:active {
