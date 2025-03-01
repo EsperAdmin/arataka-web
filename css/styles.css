@@ -1,5 +1,6 @@
 div {
-    color: rgb(0, 255, 0)
+    color: rgb(0, 255, 0);
+    font-family: sans-serif;
 }
 
 body {
@@ -17,4 +18,23 @@ li {
 footer {
     color: rgb(0, 255, 0);
     margin-top: 25px;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.IntroText {
+    background-color: rgb(0, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    max-width: 1200px;
+}
+
+.SubIntroText {
+    background-color: black;
+    outline: 4px solid #ff0000;
+    border: 1px solid #00ff15;
 }
