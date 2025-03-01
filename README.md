@@ -2,4 +2,4 @@
 Arataka dev personal/portfolio website
 
 ### about
-This is my simple website I will eventually make to host projects made by me, duh!
+This is my website to exist as both my project repository and a weird place I just felt like making
