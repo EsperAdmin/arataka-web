@@ -9,7 +9,7 @@ body {
     text-align: center;
     padding: 2%;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 li {
@@ -56,19 +56,50 @@ hr {
     border: 1px solid #00ff15;
 }
 
+#OtherPages {
+    display: inline-block;
+    margin-inline-start: 5px;
+}
+
+#OtherPagesSplit {
+    display: inline-block;
+    margin: 5px;
+    color: #ff0000;
+
+}
+
+
+
+a:any-link {
+    color:#00ff15
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Stuff for the footer */
 #page-container {
     position: relative;
     min-height: 100vh;
   }
   
 #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom: 2.5rem;
   }
   
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    height: 2.5rem;
   }
   
