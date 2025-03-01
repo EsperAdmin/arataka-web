@@ -32,22 +32,21 @@ hr {
 
 
 /* Manage the boxes */
-.Text {
-    background-color: rgb(0, 255, 0);
+
+.SubText {
+    background-color: rgba(0, 0, 0, 85%);
+    outline: 4px solid #ff0000;
+    border: 1px solid #00ff15;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
     max-width: 1200px;
 }
 
-.SubText {
-    background-color: black;
+.SecondSubText {
+    background-color: rgba(0, 0, 0, 85%);
     outline: 4px solid #ff0000;
     border: 1px solid #00ff15;
-}
-
-.SecondText {
-    background-color: rgb(0, 255, 0);
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -55,15 +54,15 @@ hr {
     margin-top: 50px;
 }
 
-.SecondSubText {
-    background-color: black;
-    outline: 4px solid #ff0000;
-    border: 1px solid #00ff15;
-}
 
+/* Styles for the nave bar links */
 #OtherPages {
     display: inline-block;
     margin-inline-start: 5px;
+}
+
+#OtherPages:hover {
+    text-shadow: 1px 0px 5px #00ff15;
 }
 
 #OtherPagesSplit {
@@ -79,8 +78,9 @@ p {
     margin-right: 15px;
 }
 
+/* Projects image glow */
 #glow:hover {
-    box-shadow: 0 0 100px #00ff15;
+    box-shadow: 0px 0px 100px #00ff15;
 }
 
 /* color the links */
